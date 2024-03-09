@@ -84,15 +84,17 @@ h1{
   font-size: 4.5rem;
 }
 
+.soc-counter{
+  font-size: 1.5rem;
+}
+
 .search-input{
   float: left;
   font-size: 1.1rem;
   padding: 0.9rem;
   border-radius: 0.5rem 0 0 0.5rem;
   border: 1px solid #D1D7E4;
-  background-image: url('img\search.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
+  /* Need to add search Icon */ 
   width: 70%;
 }
 
@@ -185,17 +187,20 @@ h2, .big-header{
 
 .btn-menu{
   color: white;
+  font-weight: bold;
   background-color: #ff8800;
   padding: 1rem;
   border: 1px solid transparent;
   border-radius: 0.5rem;
 }
 
-.btn-arrow{
+.btn-arrow, .submit{
   background-color: #ffaa4d;
   color: white;
-  padding: 1rem;
+  padding: 1.1rem;
   border-radius: 0 0.5rem 0.5rem 0;
+  position: relative;
+  left: 1.1rem;
 }
 
 .block-dp{
@@ -239,9 +244,26 @@ h2, .big-header{
   margin-bottom: 3rem;
 }
 
+.sub-title{
+  margin: 0 auto 1rem auto;
+}
+
+.margin-bot{
+  margin-bottom: 1.5rem;
+}
 
 .testimonials span{
   font-style: italic;
+}
+
+footer{
+  background: #F4F8F9;
+  padding: 2.5rem;
+}
+
+footer p{
+  color: #868699;
+  font-size: 1.2rem
 }
 
 .testimonials p{
@@ -252,6 +274,63 @@ h2, .big-header{
   width: 50%;
 }
 
+.footer-top, .footer-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom{
+  justify-content: center;
+}
+
+.footer-bottom ul{
+  display: flex;
+  list-style-type: none;
+}
+
+
+.footer-bottom ul li a{
+  padding: 1rem;
+}
+
+
+.email{
+  float: left;
+  font-size: 1.1rem;
+  padding: 0.9rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: 1px solid #D1D7E4;
+  /* Need to add search Icon */ 
+  width: 70%;
+}
+
+.submit{
+  background: #ff8800;
+  font-size: 1.1rem;
+  position: relative;
+  left: 0;
+  top: 1rem;
+  text-decoration: none;
+}
+
+.submit:hover{
+  background: #ffaa4d;
+}
+
+.link{
+  color: #ff8800;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: #ffaa4d;
+}
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* Needs media queries */
