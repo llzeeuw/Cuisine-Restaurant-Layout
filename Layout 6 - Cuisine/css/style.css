@@ -1,0 +1,236 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav{
+  background: #F4F8F9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+
+header nav ul{
+  display: flex;
+  align-content: center;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+header nav ul li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+header nav ul li a{
+  color: #3d3d4e;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+header i{
+  font-size: 1.7rem;
+}
+
+header nav ul li a:hover{
+  color: #ff8800;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  background: #F4F8F9;
+}
+
+.hero-left{
+  padding: 2rem;
+}
+
+main ul{
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+main ul li a{
+  color: #3d3d4e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1, h2, .big-header{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0D0D25;
+}
+
+h1{
+  font-size: 4.5rem;
+}
+
+.search-input{
+  float: left;
+  font-size: 1.1rem;
+  padding: 0.9rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: 1px solid #D1D7E4;
+  background-image: url('img\search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  width: 70%;
+}
+
+#location{
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: #ff8800;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+#location:hover{
+  background: #ffaa4d;
+}
+
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-left{
+  width: 50%;
+}
+
+.about-right{
+  width: 50%;
+  background: #FDFDFD;
+}
+
+h2, .big-header{
+  font-size: 4rem;
+}
+
+.small-title{
+  color: #FF9D36;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.small-title-left{
+  text-align: left;
+}
+
+.about p, .testimonials p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #868699;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+#specialty-header{
+  text-align: center;
+}
+
+.menu{
+  background: #F4F8F9;
+  padding: 3rem;
+}
+
+
+.menu ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.5rem;
+}
+
+.menu ul li a{
+  color: #868699;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
+  border-bottom: 2px solid #D1D7E4;
+  padding: 0.8rem 2rem;
+}
+
+.menu ul li a:hover{
+  color: #ff8800;
+  border-bottom: 2px solid #ff8800;
+}
+
+.menu-gallery{
+  text-align: center;
+}
+
+
+
+.btn-menu{
+  color: white;
+  background-color: #ff8800;
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+
+.btn-arrow{
+  background-color: #ffaa4d;
+  color: white;
+  padding: 1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.block-dp{
+  display: block;
+}
+
+.opening-days{
+  display: flex;
+  justify-content: space-around;
+}
+
+.opening-hours, .testimonials{
+  text-align: center;
+}
+
+.opening-hours .small-title{
+ margin-top: 5rem;
+}
+
+.opening-hours span{
+  font-size: 1.5rem;
+}
+
+.phone-number{
+  font-size: 4rem;
+  color: #ff8800;
+}
+
+.testimonials p{
+  text-align: center;
+  margin: 0 auto;
+  font-style: italic;
+  width: 50%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
