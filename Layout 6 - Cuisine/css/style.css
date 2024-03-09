@@ -207,25 +207,46 @@ h2, .big-header{
   justify-content: space-around;
 }
 
+
 .opening-hours, .testimonials{
   text-align: center;
+  margin-bottom: 4.5rem;
 }
 
 .opening-hours .small-title{
  margin-top: 5rem;
 }
 
-.opening-hours span{
-  font-size: 1.5rem;
+
+
+.opening-hours span, .call-icon{
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 2rem;
 }
 
-.phone-number{
-  font-size: 4rem;
+
+.opening-hours .phone-number{
+  font-size: 3rem;
   color: #ff8800;
+}
+
+.time{
+  font-weight: bold;
+}
+
+.opening-days{
+  margin-bottom: 3rem;
+}
+
+
+.testimonials span{
+  font-style: italic;
 }
 
 .testimonials p{
   text-align: center;
+  line-height: 2;
   margin: 0 auto;
   font-style: italic;
   width: 50%;
