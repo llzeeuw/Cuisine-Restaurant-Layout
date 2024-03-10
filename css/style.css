@@ -16,11 +16,9 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Want to use this container to add the background img
-.bg-container{
-  background-image: url('');
-}
-*/
+/* Background img for header and main */
+
+
 header nav{
   background: #F4F8F9;
   width: 100%;
@@ -233,6 +231,7 @@ h2, .big-header{
   margin-bottom: 4.5rem;
 }
 
+
 .opening-hours .small-title{
  margin-top: 5rem;
 }
@@ -349,3 +348,7 @@ footer p{
 /*******************************************/
 
 /* Needs media queries */
+
+@media screen and (max-width: 768px) {
+  
+}
