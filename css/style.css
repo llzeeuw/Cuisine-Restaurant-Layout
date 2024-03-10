@@ -15,6 +15,12 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* Want to use this container to add the background img
+.bg-container{
+  background-image: url('');
+}
+*/
 header nav{
   background: #F4F8F9;
   width: 100%;
