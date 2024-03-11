@@ -55,6 +55,8 @@ header nav ul li a:hover{
   color: #ff8800;
 }
 
+/* Style Main */
+
 main{
   display: flex;
   justify-content: space-between;
@@ -99,7 +101,6 @@ h1{
   padding: 0.9rem;
   border-radius: 0.5rem 0 0 0.5rem;
   border: 1px solid #D1D7E4;
-  /* Need to add search Icon */ 
   width: 70%;
 }
 
@@ -117,6 +118,7 @@ h1{
   background: #ffaa4d;
 }
 
+/*Style About section */
 
 .about{
   display: flex;
@@ -153,16 +155,15 @@ h2, .big-header{
   margin-bottom: 2rem;
 }
 
+/*Style Menu Section */
 #specialty-header{
   text-align: center;
 }
-
 
 .menu{
   background: #F4F8F9;
   padding: 3rem;
 }
-
 
 .menu ul{
   list-style-type: none;
@@ -192,7 +193,6 @@ h2, .big-header{
   margin-bottom: 4rem;
 }
 
-
 .btn-menu{
   color: white;
   font-size: 1.2rem;
@@ -217,9 +217,8 @@ h2, .big-header{
   left: 1.1rem;
 }
 
-.block-dp{
-  display: block;
-}
+
+/* Style Opening Schedule */
 
 .opening-days{
   display: flex;
@@ -259,17 +258,22 @@ h2, .big-header{
   margin-bottom: 3rem;
 }
 
-.sub-title{
-  margin: 0 auto 1rem auto;
-}
-
-.margin-bot{
-  margin-bottom: 1.5rem;
-}
+/* Style Testimonials section */
 
 .testimonials span{
   font-style: italic;
 }
+
+
+.testimonials p{
+  text-align: center;
+  line-height: 2;
+  margin: 0 auto;
+  font-style: italic;
+  width: 50%;
+}
+
+/* Style Footer section */
 
 footer{
   background: #F4F8F9;
@@ -281,13 +285,6 @@ footer p{
   font-size: 1.2rem
 }
 
-.testimonials p{
-  text-align: center;
-  line-height: 2;
-  margin: 0 auto;
-  font-style: italic;
-  width: 50%;
-}
 
 .footer-top, .footer-bottom{
   display: flex;
@@ -338,7 +335,7 @@ footer p{
   text-decoration: none;
 }
 
-.link:hover{
+.link:hover, .footer-bottom ul li a:hover{
   color: #ffaa4d;
 }
 
@@ -347,6 +344,21 @@ footer p{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* Utility Classes*/
+
+.block-dp{
+  display: block;
+}
+
+.sub-title{
+  margin: 0 auto 1rem auto;
+}
+
+.margin-bot{
+  margin-bottom: 1.5rem;
+}
+
 
 /* Needs media queries */
 
