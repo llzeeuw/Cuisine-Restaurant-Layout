@@ -443,10 +443,16 @@ footer p{
 
  .email, .submit{
   text-align: center;
+  padding: 0.8rem;
+  font-size: 1rem
  }
 
  .email{
-  width: 72%;
+  width: 73%;
+ }
+
+ .submit{
+  padding: 0.9rem;
  }
 
 }
