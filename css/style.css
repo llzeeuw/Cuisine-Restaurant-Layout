@@ -16,8 +16,7 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Background img for header and main */
-
+/* Style header */
 
 header nav{
   background: #F4F8F9;
@@ -30,7 +29,7 @@ header nav{
 
 header nav ul{
   display: flex;
-  align-content: center;
+  align-items: center;
   gap: 2rem;
   list-style-type: none;
 }
@@ -47,6 +46,8 @@ header nav ul li a{
   text-decoration: none;
 }
 header i{
+  display: flex;
+  align-items: center;
   font-size: 1.7rem;
 }
 
@@ -350,5 +351,5 @@ footer p{
 /* Needs media queries */
 
 @media screen and (max-width: 768px) {
-  
+
 }
