@@ -221,6 +221,7 @@ h2, .big-header{
 /* Style Opening Schedule */
 
 .opening-days{
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -237,13 +238,11 @@ h2, .big-header{
 }
 
 
-
 .opening-hours span, .call-icon{
   text-align: center;
   margin: 1rem auto;
   font-size: 2rem;
 }
-
 
 .opening-hours .phone-number{
   font-size: 3rem;
@@ -312,7 +311,6 @@ footer p{
   padding: 0.9rem;
   border-radius: 0.5rem 0 0 0.5rem;
   border: 1px solid #D1D7E4;
-  /* Need to add search Icon */ 
   width: 70%;
 }
 
@@ -360,8 +358,48 @@ footer p{
 }
 
 
-/* Needs media queries */
+/* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+
+
+.main-nav, .main-nav ul,main, .about, .menu-nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .search-input{
+  width: 50%;
+ }
+
+ .about{
+  margin-bottom: 4rem;
+ }
+
+ .about-left{
+  order: 2;
+ }
+
+.btn-menu, .btn-arrow{
+  font-size: 1rem;
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+ }
+
+/*
+ color: white;
+ font-size: 1.2rem;
+ font-weight: bold;
+ text-decoration: none;
+ background-color: #ff8800;
+ padding: 1rem;
+ border: 1px solid transparent;
+ border-radius: 0.5rem;*/
+
+ .menu-nav ul li a{
+  padding: 0.1rem;
+ }
 
 }
