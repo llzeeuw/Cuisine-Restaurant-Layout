@@ -361,6 +361,7 @@ footer p{
 
 /* Media Queries */
 
+/* Mobile devices */
 @media screen and (max-width: 800px) {
 
 
@@ -375,10 +376,19 @@ footer p{
  header nav ul{
   gap: 1.3rem;
   margin-bottom: 0.2rem;
+  padding-left: 0;
  }
 
+
  .search-input{
-  width: 50%;
+  font-size: 0.9rem;
+  width: 65%;
+ }
+
+ #location{
+  font-size: 0.9rem;
+  position: relative;
+  right: 2.7rem;
  }
 
  .about{
@@ -418,6 +428,10 @@ footer p{
   padding: 0.08rem;
  }
 
+ .opening-hours-img{
+  max-width: 90%;
+  max-height: 90%
+ }
 
  .footer-section-right{
   text-align: center;
@@ -429,10 +443,10 @@ footer p{
 
  .email, .submit{
   text-align: center;
-  border-radius: 0.5rem;
-  margin: 1.2rem;
  }
 
- 
+ .email{
+  width: 72%;
+ }
 
 }
